@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+<div class="container py-5" style="margin-top: 76px;">
+    <div class="row">
+        <div class="col-lg-8">
+            <h1 class="display-5 fw-bold mb-3">{{ page.title }}</h1>
+            
+            {% if page.status %}
+            <span class="badge bg-{{ page.status == 'active' ? 'success' : page.status == 'completed' ? 'primary' : 'secondary' }} mb-3">
+                {{ page.status | capitalize }}
+            </span>
+            {% endif %}
+            
+            {% if page.district %}
+            <p class="text-muted mb-3">
+                <i class="fas fa-map-marker-alt"></i> {{ page.district }}
+            </p>
+            {% endif %}
+            
+            <div class="content">
+                {{ content }}
+            </div>
+            
+            {% if page.github %}
+            <div class="mt-4">
+                <a href="{{ page.github }}" class="btn btn-success">
+                    <i class="fab fa-github"></i> View on GitHub
+                </a>
+            </div>
+            {% endif %}
+        </div>
+        
+        <div class="col-lg-4">
+            <div class="card">
+                <div class="card-header">
+                    <h5>Project Details</h5>
+                </div>
+                <div class="card-body">
+                    {% if page.tech_stack %}
+                    <p><strong>Tech Stack:</strong> {{ page.tech_stack | join: ", " }}</p>
+                    {% endif %}
+                    
+                    {% if page.contributors %}
+                    <p><strong>Contributors:</strong> {{ page.contributors | size }}</p>
+                    {% endif %}
+                    
+                    {% if page.impact %}
+                    <p><strong>Impact:</strong> {{ page.impact }}</p>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
