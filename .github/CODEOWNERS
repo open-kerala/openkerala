@@ -1,0 +1,12 @@
+# Global code owners
+* @open-kerala/maintainers
+
+# Website and documentation
+*.md @open-kerala/docs-team
+_layouts/ @open-kerala/web-team
+_includes/ @open-kerala/web-team
+css/ @open-kerala/web-team
+
+# Configuration files
+_config.yml @open-kerala/maintainers
+.github/ @open-kerala/maintainers

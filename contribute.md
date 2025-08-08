@@ -73,11 +73,28 @@ title: Contribute
         </div>
     </div>
     
+    <div class="bg-light p-4 rounded mt-5">
+        <h3 class="text-center mb-4">Submit a Problem</h3>
+        <p class="text-center">Know a problem in Kerala that needs solving? Tell us about it!</p>
+        <div class="text-center">
+            <a href="https://forms.gle/example" class="btn btn-primary me-2">Submit via Form</a>
+            <a href="https://github.com/open-kerala/openkerala/issues/new?template=problem-submission.md" class="btn btn-outline-primary">Submit via GitHub</a>
+        </div>
+    </div>
+    
     <div class="text-center mt-5">
         <h3>Ready to get started?</h3>
-        <p class="lead">Read our <a href="https://github.com/open-kerala/openkerala/blob/main/CONTRIBUTING.md">Contributing Guidelines</a> to learn more.</p>
-        <a href="https://github.com/open-kerala/openkerala" class="btn btn-success btn-lg">
-            <i class="fab fa-github"></i> View on GitHub
-        </a>
+        <p class="lead">Join our community channels:</p>
+        <div class="d-flex gap-3 justify-content-center flex-wrap">
+            <a href="https://github.com/open-kerala/openkerala" class="btn btn-success">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="#" class="btn btn-primary">
+                <i class="fab fa-discord"></i> Discord
+            </a>
+            <a href="https://github.com/open-kerala/openkerala/blob/main/CONTRIBUTING.md" class="btn btn-outline-success">
+                Contributing Guide
+            </a>
+        </div>
     </div>
 </div>

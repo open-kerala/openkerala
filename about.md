@@ -12,10 +12,21 @@ title: About
                 OpenKerala is an open-source public innovation movement focused on building real, usable solutions to Kerala's problems—in full transparency, collaboration, and inclusivity.
             </div>
             
-            <p>We're not just a community. We're a collective of developers, designers, activists, students, teachers, and everyday citizens coming together to turn local problems into open-source projects that anyone can contribute to, use, or improve.</p>
+            <p>Born from the belief that technology should serve communities, not corporations, OpenKerala brings together diverse voices to solve real problems. We're developers coding late into the night, farmers sharing ground-truth insights, students bringing fresh perspectives, and citizens who refuse to accept "that's just how things are."</p>
+            
+            <h2 class="mt-5 mb-3">🌱 Our Story</h2>
+            <p>Kerala has always been a land of innovation—from ancient spice trade networks to modern IT hubs. OpenKerala continues this tradition by making innovation accessible to everyone. We believe the best solutions come from those who live with the problems daily.</p>
+            
+            <h2 class="mt-5 mb-3">💚 Our Values</h2>
+            <ul class="list-unstyled">
+                <li class="mb-2">🤝 <strong>Collaboration over Competition</strong> - We build together, not against each other</li>
+                <li class="mb-2">🌍 <strong>Local Impact over Global Hype</strong> - Real problems in real communities matter most</li>
+                <li class="mb-2">🔓 <strong>Open by Default</strong> - Transparency in process, code, and decision-making</li>
+                <li class="mb-2">🎯 <strong>Action over Discussion</strong> - We prototype, test, and iterate quickly</li>
+            </ul>
             
             <h2 class="mt-5 mb-3">🚀 Our Vision</h2>
-            <p>To make Kerala a model for collaborative, open-source-driven problem solving—from the backwaters to the blockchain, from tribal hamlets to tech hubs.</p>
+            <p>To make Kerala a model for collaborative, open-source-driven problem solving—from the backwaters to the blockchain, from tribal hamlets to tech hubs. We envision a future where every citizen can contribute to solutions, regardless of their technical background.</p>
             
             <h2 class="mt-5 mb-3">📍 What Makes Us Different</h2>
             <div class="row mt-4">

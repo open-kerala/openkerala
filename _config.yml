@@ -1,14 +1,13 @@
-title: "OpenKerala"
-description: "Building Kerala in the open."
+title: OpenKerala
+description: Build Kerala, in the open.
 baseurl: ""
 url: "https://openkerala.org"
-
-markdown: kramdown
-highlighter: rouge
 theme: minima
+markdown: kramdown
 
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
   - jekyll-sitemap
 
 collections:
